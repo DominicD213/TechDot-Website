@@ -244,7 +244,7 @@
 @media only screen and (min-width: 0rem) {
     body.dark-mode {
         #dark-mode-toggle {
-            .cs-sun {
+            .cs-sun {             
                 opacity: 1;
                 transform: translate(-50%, -50%);
             }
@@ -260,7 +260,7 @@
     #dark-mode-toggle {
         z-index: 1000;
         position: absolute;
-        top: calc(10 / 16 * 1rem);
+        top: 33%;
         right: calc(70 / 16 * 1rem);
         display: block;
         border: none;
@@ -352,9 +352,9 @@
             justify-content: center;
             align-items: center;
             margin: 0 auto 0 0;
-            height: 100%;
-            max-width: calc(146 / 16 * 1rem);
-            width: 40%;
+            height: 50%;
+            max-width: calc(146 / 14 * 1rem);
+            width: 100%;
             /* prevents padding from affecting height and width */
             box-sizing: border-box;
             padding: 0;
@@ -900,8 +900,8 @@
             align-items: center;
             /* margin-right auto pushes everything away from it to the right */
             margin: 0 auto 0 0;
-            height: calc(65 / 16 * 1rem);
-            max-width: calc(350 / 16 * 1rem);
+            height: calc(65 / 14 * 1rem);
+            max-width: calc(350 / 14 * 1rem);
             width: 18.4%;
             padding: 0;
 
@@ -1240,8 +1240,8 @@
             .logo {
                 display: inline-block;
                 margin: auto;
-                margin-bottom: calc(30 / 16 * 1em);
-                height: calc(32 / 16 * 1em);
+                margin-bottom: calc(30 / 20 * 1em);
+                height: calc(32 / 5 * 1em);
                 width: auto;
                 text-align: center;
 
@@ -1396,7 +1396,7 @@
 
             .logo {
                 margin-left: 0;
-                height: calc(40 / 16 * 1rem);
+                height: calc(40 / 14 * 1rem);
                 text-align: left;
             }
 

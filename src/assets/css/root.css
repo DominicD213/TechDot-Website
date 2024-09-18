@@ -213,7 +213,7 @@
   #dark-mode-toggle {
     z-index: 1000;
     position: absolute;
-    top: 0.625rem;
+    top: 33%;
     right: 4.375rem;
     display: block;
     border: none;
@@ -289,9 +289,9 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto 0 0;
-    height: 100%;
-    max-width: 9.125rem;
-    width: 40%;
+    height: 50%;
+    max-width: 10.4285714286rem;
+    width: 100%;
     /* prevents padding from affecting height and width */
     box-sizing: border-box;
     padding: 0;
@@ -753,8 +753,8 @@
     align-items: center;
     /* margin-right auto pushes everything away from it to the right */
     margin: 0 auto 0 0;
-    height: 4.0625rem;
-    max-width: 21.875rem;
+    height: 4.6428571429rem;
+    max-width: 25rem;
     width: 18.4%;
     padding: 0;
   }
@@ -1046,8 +1046,8 @@
   #footer .left-section .logo {
     display: inline-block;
     margin: auto;
-    margin-bottom: 1.875em;
-    height: 2em;
+    margin-bottom: 1.5em;
+    height: 6.4em;
     width: auto;
     text-align: center;
   }
@@ -1185,7 +1185,7 @@
   }
   #footer .left-section .logo {
     margin-left: 0;
-    height: 2.5rem;
+    height: 2.8571428571rem;
     text-align: left;
   }
   #footer .left-section p {
