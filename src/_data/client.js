@@ -1,5 +1,5 @@
 module.exports = {
-    "name": "TechDot Webdesigns",
+    "name": "TechDot Web Innovation",
     "email": "dominicdigiacomo16@gmail.com",
     "phoneForTel": "7057753219",
     "phoneFormatted": "(704) 775-3219",
